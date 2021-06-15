@@ -1,0 +1,101 @@
+body{
+    background-color: wheat;
+    letter-spacing: -0.31em;
+    text-rendering: optimizeSpeed;
+  }
+  div{
+  box-sizing: border-box; 
+  letter-spacing: normal;
+  text-rendering: auto;
+  zoom: 1;
+
+  }
+  .box{
+    border: 1px solid black;
+    border-left: none;
+    padding: 20px 20px 20px 20px;
+    background-color: blanchedalmond;
+    margin: 0;
+    height: 350px;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    
+  }
+  .box.first{
+    border-left: 1px solid black;
+  }
+  img{
+  position: absolute;
+  display: inline-block;
+  border-radius: 50%;
+  width: 290px;
+  height: 290px;
+  left: calc(50% - 145px);
+  top: 25px;
+  transition: .5s all;
+  z-index: 35;
+  }
+  .title{
+  background-color:whitesmoke;
+  border: 1px solid black;
+  color:black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  display: block;
+  opacity: 0.9;
+  bottom: 70px;
+  left: calc(50% - 120px);
+  z-index: 40;
+  font-family: 'Karantina';
+  transition: 1s all;
+  }
+ 
+  .circle {
+    border: 1px solid chocolate;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 30;
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 150px);
+    z-index: 25;
+    transition: .5s all;
+  }
+  #antras{
+    width: 33.33333%;
+    border-top: none;
+  }
+ .title:hover{
+  background-color: rgb(144, 230, 204);
+  border-radius: 50%;
+  transform: rotate(360deg);
+ }
+  .box::before{
+  content: "SKRENDAAMMM!!";
+  position: relative;
+  top: 40px;
+  left: 10px;
+  color: black;
+  background-color: sandybrown;
+  z-index: 50;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .box::after{
+  content:url('http://127.0.0.1:5500/008/ND/12.png'); 
+  transform: scale(.05);
+  position:absolute; 
+  display: inline-block;
+  left:-370px;
+  top:-400px;
+  z-index: 100;
+}
+#bendras:hover{
+  transform: scale(1.2);
+}

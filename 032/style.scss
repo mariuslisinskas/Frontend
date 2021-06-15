@@ -1,0 +1,15 @@
+:root{
+    --first: 30px;
+    --second: 10px;
+}
+h1{
+    font-size: var(--first);
+    span{
+        --first: 20px;
+        font-size: var(--first);
+    }
+}
+
+h2{
+    font-size: var(--second);
+}

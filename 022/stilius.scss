@@ -1,0 +1,31 @@
+$bortelis: 3px dotted green;
+$displejus: block;
+
+.one {
+    &.super{
+    h1{
+    color: aquamarine;
+    display: $displejus;
+    width: 70%;
+    border: $bortelis;
+        span{
+            color: blueviolet;
+            display: $displejus;
+            width: 70%;
+            border: $bortelis;
+                i{
+                color: chocolate;
+                display: $displejus;
+                width: 70%;
+                border: $bortelis;
+                }
+            } 
+        }
+    }
+}
+span{
+    color: crimson;
+}
+
+
+@import 'stilius15';

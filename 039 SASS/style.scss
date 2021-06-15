@@ -1,0 +1,25 @@
+%strong-alert:hover{
+    color: red;
+}
+
+
+.alert{
+    color: brown;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+    width: 200px;
+    .navigation &{
+        color: turquoise;
+    }
+    [dir=rtl] &{
+        text-align: right;
+        &.bla{
+            text-align: left;
+        }
+    }
+    &{
+        @extend %strong-alert;
+    }
+
+}

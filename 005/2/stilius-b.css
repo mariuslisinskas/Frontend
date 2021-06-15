@@ -1,0 +1,15 @@
+.animal{
+    color: blueviolet;
+}
+#head{
+    color: cyan;
+}
+#head.animal span{
+    color: black;
+    padding: 5px;
+    border: 3px solid black;
+}
+.animal.predator{
+    background-color: rgb(167, 143, 143);
+    color: brown;
+}

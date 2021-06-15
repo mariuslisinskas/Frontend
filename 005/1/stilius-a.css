@@ -1,0 +1,38 @@
+.linkas2{
+    color:darkblue;
+    letter-spacing:10px; 
+    font-weight:normal;
+    margin:10px;  
+}
+.paveikslelis{
+    width:500px;   
+}
+.ka{
+    color: black!important;
+    letter-spacing: 5px; 
+    text-align:left;
+}
+.kb{
+    color: darkslategray;
+    letter-spacing: 5px;
+}
+.kc{
+    color:black;
+    letter-spacing: 5px;
+}
+.ka span{
+    color: brown;
+}
+h1.kb span{
+    color:black;
+}
+h1.kb{
+    color:blue;
+}
+span{
+    color: yellow;
+}
+
+u{
+    color: tomato;
+}

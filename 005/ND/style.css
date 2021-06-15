@@ -1,0 +1,47 @@
+body
+{
+    background-color: cadetblue;
+    letter-spacing: -0.31em;
+    text-rendering: optimizeSpeed;
+    margin: 0;
+}
+.box{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    z-index: 30;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    left: Calc(50% - 300px);
+}
+.box img{
+    display: inline-block;
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    margin: 0;
+    position: relative;
+    top: calc(50% - 145px);
+    z-index: 10;
+    left: 4px;
+}
+#antras{
+   display: block;
+}
+.box .title {
+    width: calc(100% - 120px);
+    background-color: cyan;
+    font-size: 18px;
+    padding: 10px;
+    letter-spacing: normal;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    bottom: 70px;
+    right: 50px;
+    opacity: 0.7;
+    z-index: 20;
+}

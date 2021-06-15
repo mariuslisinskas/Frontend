@@ -1,0 +1,42 @@
+.op{
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    transition: .5s all;
+}
+
+.op:hover{
+    background-color: hotpink;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transform: rotate(360deg);
+
+}
+.op::after{
+    content: "HELLO";
+    position: relative;
+    top: 20px;
+    left: 10px;
+    color: black;
+
+}
+.op::before{
+    content: "MY FRIEND";
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: black;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+} 
+.parent p{
+    color: crimson;
+}
+.parent p:first-child{
+    color:green
+}
+.parent p:last-child{
+    color: hotpink;
+}

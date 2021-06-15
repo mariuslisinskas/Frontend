@@ -1,0 +1,44 @@
+body{
+    letter-spacing: -.31em;
+    text-rendering: optimizeSpeed;
+    padding: 0;
+    margin: 0;
+}
+.box{
+    letter-spacing: normal;
+    display: inline-block;
+}
+.cont .box{
+    box-sizing: border-box;
+    position: relative;
+    width: 33.33333%;
+    text-align: center;
+}
+.cont{
+    border: 1px solid black;
+}
+.box.pirmas{
+    background-color: blue;
+}
+.box.antras{
+    background-color: cornflowerblue;
+}
+.box.trecias{
+    background-color: darkcyan;
+}
+
+
+@media screen and (max-width: 1000px){
+    .cont .box{
+        width: 100%;
+        }
+    .box.pirmas, .box.antras{
+        width: 50%;
+        }
+        
+}
+@media screen and (max-width: 500px){
+    .cont .box{
+        width: 100%;
+        }
+}

@@ -1,0 +1,23 @@
+nav {
+  background-color: darkblue;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 30px;
+  color: white;
+}
+
+a:hover {
+  color: teal;
+}
+
+h1.kiskis {
+  background-color: tomato;
+}
+
+h1.zuikis {
+  background-color: violet;
+}
+/*# sourceMappingURL=style.css.map */

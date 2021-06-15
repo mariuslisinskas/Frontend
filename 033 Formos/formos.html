@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <form action="" method="get">
+
+            <input type="text" name="tekstas" placeholder="VARDAS">
+            <input type="text" name="tekstas2">
+            <input type="password" name="slapt" maxlength="4">
+            <input type="email" name="email" readonly>
+            <input type="number" name="skaicius">
+            <input type="file" name="paveiksliukas">
+            <textarea name="tekstas" id="" cols="30" rows="10">abcd</textarea>
+
+            <input type="submit" name="mygtukas" value="mano paikuolis">
+            <input type="reset" name="" value="mano puikuolis">
+        
+        
+        <fieldset>
+            <legend>Radijo mygtukai</legend>
+                <label for="p">pingvinas</label>
+                <input type="radio" name="radijo" id="p" checked>
+                <label for="t">tigras</label>
+                <input type="radio" name="radijo" id="t">
+                <label for="m">makaka</label>
+                <input type="radio" name="radijo" id="m">
+        </fieldset>
+        
+        <fieldset>
+            
+            <legend>selektas</legend>
+            <select name="darzoves" id="">
+                <option value="0" selected disabled>Pasirink darzove</option>
+                <option value="m">morkos</option>
+                <option value="b">bulve</option>
+                <option value="o">obuolys</option>
+                <option value="k">kopustas</option>
+
+
+            </select>
+        </fieldset>
+        <fieldset>
+            
+            <legend>multi-selektas</legend>
+            <select name="vaisiai" id="" multiple>
+                <option value="0">Pasirink vaisiu</option>
+                <option value="h">slyva</option>
+                <option value="hh">burokas</option>
+                <option value="hhh">obuolys</option>
+                <option value="hk">kriause</option>
+            </select>
+        </fieldset>
+        </form>
+    </div>
+    <div class="container nenaudojami">
+        <form action="" method="get">
+            <input type="search" name="" id="">
+            <input type="range" name="" id="">
+            <input type="color" name="" id="">
+            <input type="datetime-local" name="" id="">
+            
+
+
+            <fieldset>
+                <legend>checkboxai</legend>
+                    <label for="e">egle</label>
+                    <input type="checkbox" name="egle" id="e">
+                    <label for="pp">pusis</label>
+                    <input type="checkbox" name="pusis" id="pp">
+                    <label for="a">azuolas</label>
+                    <input type="checkbox" name="azuolas" id="a">
+            </fieldset>
+
+        </form>
+    </div>
+
+
+</body>
+</html>

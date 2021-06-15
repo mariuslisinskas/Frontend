@@ -1,0 +1,38 @@
+p{
+    color: yellow;
+}
+p:first-child{
+    color: blue;
+}
+p:last-child{
+    color: rgb(29, 20, 20);
+}
+/* div:first-child{
+    background-color: lightcoral;
+} */
+
+body > div{
+    background-color: lavender;
+}
+
+/* body > div p:first-child{
+    color: black;
+} */
+
+li{
+    color: brown;
+}
+li:first-child{
+    color: black;
+}
+li:last-child{
+    color: transparent;
+    display: none;
+}
+body > div >div ~ p{
+    background-color: red;
+}
+div :nth-child(odd){
+    letter-spacing: 20px;
+    border:  1px solid black;
+}

@@ -1,0 +1,29 @@
+img{
+    width: 150px;
+    height: auto;
+    /* float: right; */
+    /* float: left; */
+    margin: 10px;
+}
+h2{
+    text-align: center;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.stop{
+    clear: both;
+}
+.container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+p{
+    /* display: inline-block;
+    width: 50%; */
+    text-align: justify;
+}
